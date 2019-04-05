@@ -1,7 +1,7 @@
 # JavaScript Teacher
 Learn JavaScript by checking my samples :)
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rogeroliveira84/javascript-teacher/blob/master/LICENSE)![GitHub contributors](https://img.shields.io/github/contributors/rogeroliveira84/javascript-teacher.svg?color=orange)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rogeroliveira84/javascript-teacher/blob/master/LICENSE) ![GitHub contributors](https://img.shields.io/github/contributors/rogeroliveira84/javascript-teacher.svg?color=orange)
 
 ## Samples:
 
