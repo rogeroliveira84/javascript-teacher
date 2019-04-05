@@ -52,7 +52,7 @@ Calc.prototype = {
 } 
 
 let Add = function() {
-    this.calculate = (...values) => values.reduce((previous, current) => previous + current, 0,)
+    this.calculate = (...values) => values.reduce((previous, current) => previous + current, 0)
 }
 let Multiply = function() {
     this.calculate = (...values) => values.reduce((previous, current) => previous * current, 1)
