@@ -5,7 +5,7 @@ Learn JavaScript by checking my samples :)
 
 ## Samples:
 
-### 1. stategyPattern.js
+### 1. [stategyPattern.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/strategyPattern.js)
 In this sample you will learn:
 - the strategy pattern
 - arrow functions
