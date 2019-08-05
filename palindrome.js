@@ -4,8 +4,10 @@ On 05/08/2019  - https://github.com/rogeroliveira84/javascript-teacher
 --------------------------------------------------------------------------
 
 ** PALINDROME WORD ** ---------------------------------------------------
-It is a behavioural design pattern that allows encapsulation of alternative algorithms for a particular task. 
-It defines a family of algorithms and encapsulates them in such a way that they are interchangeable at runtime without client interference or knowledge.
+Palindrome: a word, phrase, number, or other sequence of symbols or elements, whose meaning may be interpreted the same way in either forward or reverse direction.
+Famous examples include “Amore, Roma“, “A man, a plan, a canal: Panama” and “No ‘x’ in ‘Nixon’“.
+Composing literature in palindromes is an example of constrained writing.
+The word “palindrome” was coined from the Greek roots palin (“again”) and dromos (“way, direction”) by the English writer Ben Jonson in the 17th century.
 
 ** EXPLAINING THIS SAMPLE ** ---------------------------------------------
 Passing two arrays one with only Palindrome words and the other only no palindrome words it will check each one and return an object saying if it is or
