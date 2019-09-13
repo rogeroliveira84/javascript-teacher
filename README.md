@@ -22,3 +22,10 @@ In this sample you will learn:
 - REGEX
 - arrow functions
 - rest / spread operators
+
+### 3. [chainOfResponsibilityPattern.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/chainOfResponsibilityPattern.js)
+
+In this sample you will learn:
+
+- the chain of responsibility pattern
+- Template literals (ES6)
