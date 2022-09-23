@@ -29,3 +29,8 @@ In this sample you will learn:
 
 - the chain of responsibility pattern
 - Template literals (ES6)
+
+### 4. [promise.all.pollyfill.js](#)
+
+coming soon...
+
