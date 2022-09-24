@@ -8,7 +8,7 @@ It is a behavioural design pattern that allows encapsulation of alternative algo
 It defines a family of algorithms and encapsulates them in such a way that they are interchangeable at runtime without client interference or knowledge.
 
 ** EXPLAINING THIS SAMPLE ** ---------------------------------------------
-This sample algorithm implements a Calc function that receives the operation by parameter and internally it will use that operation to provide the result.
+This sample algorithm implements a Calc function that receives the operation by parameter, and internally it will use that operation to provide the result.
 You can see two methods (Add, Multiply) that when set to the instance of Calc it will use their logic in the main Calc function.
 
 ** OTHER JAVASCRIPT TECHNIQUES IN USE ** ---------------------------------
@@ -47,15 +47,19 @@ let Calc = function() {
 }
 
 Calc.prototype = {
-    setOperation: operation => { this.operation = operation },
-    calculate: (...values) => this.operation.calculate(...values)
+    setOperation: function (operation) { this.operation = operation },
+    calculate: function (...values) { return this.operation?.calculate(...values) }
 } 
 
 let Add = function() {
-    this.calculate = (...values) => values.reduce((previous, current) => previous + current, 0)
+    this.calculate = function (...values) {
+        return values?.reduce((previous, current) => previous + current, 0)
+    }
 }
 let Multiply = function() {
-    this.calculate = (...values) => values.reduce((previous, current) => previous * current, 1)
+    this.calculate = function (...values) {
+        return values?.reduce((previous, current) => previous * current, 1)
+    }
 }
 
 let main = () => {

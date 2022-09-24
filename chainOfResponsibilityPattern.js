@@ -26,25 +26,21 @@ the object itself but accumulating the results in the value variable.
 class Operation {
     constructor(initialValue = 0) {
         this.value = initialValue;
-        return this.value;
+        return this;
     }
-    default = () => this.value;
+    default = () => this;
 
     add(value) {
         if (value) {
             this.value += value;
-            return this;
-        } else {
-            return this.value;
         }
+        return this;
     }
 	multiply(value) {
         if (value) {
             this.value *= value;
-            return this;
-        } else {
-            return this.value;
         }
+        return this;
     }
     result = () => this.value;
 }

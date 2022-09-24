@@ -5,7 +5,7 @@ On 05/08/2019  - https://github.com/rogeroliveira84/javascript-teacher
 
 ** PALINDROME WORD ** ---------------------------------------------------
 Palindrome: a word, phrase, number, or other sequence of symbols or elements, whose meaning may be interpreted the same way in either forward or reverse direction.
-Famous examples include “Amore, Roma“, “A man, a plan, a canal: Panama” and “No ‘x’ in ‘Nixon’“.
+Famous examples include Amore, Roma, A man, a plan, a canal: Panama and No ‘x’ in ‘Nixon’.
 Composing literature in palindromes is an example of constrained writing.
 The word “palindrome” was coined from the Greek roots palin (“again”) and dromos (“way, direction”) by the English writer Ben Jonson in the 17th century.
 
