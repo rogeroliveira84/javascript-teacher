@@ -8,7 +8,7 @@ Learn JavaScript by checking my examples :)
 
 ### 1. [strategyPattern.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/strategyPattern.js)
 
-In this example you will learn:
+In this example you will see:
 
 - [Strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
 - [Arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
@@ -17,7 +17,7 @@ In this example you will learn:
 
 ### 2. [palindrome.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/palindrome.js)
 
-In this example you will learn:
+In this example you will see:
 
 - [IIFE (Immediately Invoked Function Expression)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
 - [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
@@ -27,14 +27,14 @@ In this example you will learn:
 
 ### 3. [chainOfResponsibilityPattern.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/chainOfResponsibilityPattern.js)
 
-In this example you will learn:
+In this example you will see:
 
 - [Chain-of-responsibility pattern](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
 - [Template literals (Template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 ### 4. [promise.all.polyfill.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/promise.all.polyfill.js)
 
-In this example you will learn:
+In this example you will see:
 
 - [Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
 - [Promises](https://www.w3schools.com/Js/js_promise.asp)
