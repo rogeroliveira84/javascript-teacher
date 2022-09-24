@@ -9,7 +9,7 @@ Famous examples include Amore, Roma, A man, a plan, a canal: Panama and No ‘x�
 Composing literature in palindromes is an example of constrained writing.
 The word “palindrome” was coined from the Greek roots palin (“again”) and dromos (“way, direction”) by the English writer Ben Jonson in the 17th century.
 
-** EXPLAINING THIS SAMPLE ** ---------------------------------------------
+** EXPLAINING THIS EXAMPLE ** ---------------------------------------------
 Passing two arrays one with only Palindrome words and the other only no palindrome words it will check each one and return an object saying if it is or
 not a palindrome word.
 

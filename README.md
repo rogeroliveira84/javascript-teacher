@@ -30,7 +30,8 @@ In this sample you will learn:
 - the chain of responsibility pattern
 - Template literals (ES6)
 
-### 4. [promise.all.pollyfill.js](#)
+### 4. [promise.all.pollyfill.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/promise.all.polyfill.js)
+[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
 
 coming soon...
 

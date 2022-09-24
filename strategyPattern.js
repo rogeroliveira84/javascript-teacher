@@ -7,8 +7,8 @@ On 05/04/2019  - https://github.com/rogeroliveira84/javascript-teacher
 It is a behavioural design pattern that allows encapsulation of alternative algorithms for a particular task. 
 It defines a family of algorithms and encapsulates them in such a way that they are interchangeable at runtime without client interference or knowledge.
 
-** EXPLAINING THIS SAMPLE ** ---------------------------------------------
-This sample algorithm implements a Calc function that receives the operation by parameter, and internally it will use that operation to provide the result.
+** EXPLAINING THIS EXAMPLE ** ---------------------------------------------
+This example algorithm implements a Calc function that receives the operation by parameter, and internally it will use that operation to provide the result.
 You can see two methods (Add, Multiply) that when set to the instance of Calc it will use their logic in the main Calc function.
 
 ** OTHER JAVASCRIPT TECHNIQUES IN USE ** ---------------------------------
