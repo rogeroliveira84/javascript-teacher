@@ -4,7 +4,7 @@ Learn JavaScript by checking my examples :)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rogeroliveira84/javascript-teacher/blob/master/LICENSE) ![GitHub contributors](https://img.shields.io/github/contributors/rogeroliveira84/javascript-teacher.svg?color=orange)
 
-## Samples
+## Examples
 
 ### 1. [strategyPattern.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/strategyPattern.js)
 
@@ -33,7 +33,8 @@ In this example you will learn:
 - [Template literals (Template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 ### 4. [promise.all.pollyfill.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/promise.all.polyfill.js)
-[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+
+In this example you will learn:
 
 - [Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
 - [Promises](https://www.w3schools.com/Js/js_promise.asp)
