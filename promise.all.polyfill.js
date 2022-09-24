@@ -50,7 +50,7 @@ const testCase1 = function() {
     sampleSumPromise(3, 3),
   ])
     .then(result => console.log(result))
-    .catch(err => console.log('error'));
+    .catch(err => console.log(err));
 };
 
 const testCase2 = function() {
