@@ -32,7 +32,7 @@ In this example you will learn:
 - [Chain-of-responsibility pattern](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
 - [Template literals (Template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
-### 4. [promise.all.pollyfill.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/promise.all.polyfill.js)
+### 4. [promise.all.polyfill.js](https://github.com/rogeroliveira84/javascript-teacher/blob/master/promise.all.polyfill.js)
 
 In this example you will learn:
 
