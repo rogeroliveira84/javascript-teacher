@@ -7,12 +7,11 @@ On 24/09/2022  - https://github.com/rogeroliveira84/javascript-teacher
 It is a piece of code the implements the features that you expect the browser to support natively.
 
 ** EXPLAINING THE Promise.all() function ** ---------------------------------------------
-Te Promise.all function receives an array of promises and return a single promise that resolves to an array of the results.
+The Promise.all function receives an array of promises and return a single promise that resolves to an array of the results.
 It will only resolve once all promises in the array have been resolved. It will reject immediately upon any of the input promises rejecting and return the message/error.
 
 ** EXPLAINING THIS EXAMPLE ** ---------------------------------------------
 This example algorithm implements a polyfill of the Promise.all() function, by applying the same behaviour using more compatible JavaScript implementations.
-**
 */
 
 const promiseAllPolyfill = async function(promises) {
