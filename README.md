@@ -41,3 +41,7 @@ In this example you will see:
 - [Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
 - [Try...catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
 
+### 5. [stream.api.js](#)
+
+#### Coming soon...
+
