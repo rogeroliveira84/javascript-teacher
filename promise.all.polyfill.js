@@ -1,5 +1,5 @@
 /* JAVA SCRIPT TEACHER --------------------------------------------------- 
-Created by Roger Oliveira <rogeroliveira84@gmail.com>
+Created by Roger Oliveira
 On 24/09/2022  - https://github.com/rogeroliveira84/javascript-teacher
 --------------------------------------------------------------------------
 

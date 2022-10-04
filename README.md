@@ -49,9 +49,11 @@ Learn JavaScript by checking my examples :)
 - [Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
 - [Try...catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
 
-### 5. [streamSubscriber.api.js](#)
+### 5. [streamSubscriberApi.js](#)
 
-#### An example of how to implement a stream subscriber in JS.
+#### An example of how to implement a stream subscriber API in JS.
 
-#### Coming soon...
+##### What can I learn in this example?
 
+- [typeof operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+- [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
