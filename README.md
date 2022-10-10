@@ -57,3 +57,13 @@ Learn JavaScript by checking my examples :)
 
 - [typeof operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
 - [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+### 6. [lruCache.js](#)
+
+#### An example of how to implement a Least recently used (LRU) Cache in JS.
+
+##### What can I learn in this example?
+
+- [LRU Cache](https://www.geeksforgeeks.org/lru-cache-implementation/)
+
+##### Coming soon...
