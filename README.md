@@ -64,6 +64,6 @@ Learn JavaScript by checking my examples :)
 
 ##### What can I learn in this example?
 
-- [LRU Cache](https://www.geeksforgeeks.org/lru-cache-implementation/)
+- [LRU Cache](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU))
 
 ##### Coming soon...
