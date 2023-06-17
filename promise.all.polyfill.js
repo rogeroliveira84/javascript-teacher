@@ -14,7 +14,7 @@ It will only resolve once all promises in the array have been resolved. It will 
 This example algorithm implements a polyfill of the Promise.all() function, by applying the same behaviour using more compatible JavaScript implementations.
 */
 
-const promiseAllPolyfill = async function(promises) {
+const promiseAllPolyfill = async (promises) => {
   if (!promises) return [];
   const results = [];
   let resolvedCount = 0;
@@ -31,37 +31,75 @@ const promiseAllPolyfill = async function(promises) {
           resolve(results);
         }
       })
+        // Reject the polyfill promise if any promise rejects
         .catch(reject);
     });
   });
 };
 
-const sampleSumPromise = (a, b) => {
-  if (a === null || b === null) throw new Error('Invalid params');
+const sampleSumPromise = async (a, b) => {
+  if (!a || !b) { throw new Error('Invalid params'); }
   return new Promise((resolve) => resolve(a + b));
 };
 
-const testCase1 = function() {
-  // Output: "[2, 5, 6]"
-  promiseAllPolyfill([
+const expect = (result) => {
+  return {
+    toBe: (expected) => {
+      if (result?.toString() === expected?.toString()) {
+        console.log('Test Passed!');
+        return;
+      }
+      console.log(`Test Failed! expected: ${expected}, but got: ${result}`);
+    },
+    toThrow: () => {
+      if (typeof result !== 'function') {
+        console.log('Test Failed! Expected a function to throw an error');
+        return;
+      }
+
+      let errorCaught = false;
+      try {
+        result?.();
+      } catch (err) {
+        console.log(`Test Passed! Error caught: ${err}`);
+        errorCaught = true;
+      }
+      if (errorCaught) {
+        console.log('Test Failed! Did not throw expected error');
+      }
+    }
+  }
+}
+
+const testCase1 = async () => {
+  const params = [
     sampleSumPromise(1, 1),
     sampleSumPromise(2, 2),
     sampleSumPromise(3, 3),
-  ])
-    .then(result => console.log(result))
-    .catch(err => console.log(err));
+  ];
+
+  // Output: "[2, 5, 6]"
+  const res1 = await promiseAllPolyfill(params);
+  const res2 = await Promise.all(params);
+  expect(res1).toBe(res2);
 };
 
-const testCase2 = function() {
-  // Output: "Rejected Error"
-  promiseAllPolyfill([
-    sampleSumPromise(1, 1),
-    sampleSumPromise(2, null),
-    sampleSumPromise(1, 2),
-  ])
-    .then(result => console.log(result))
-    .catch(err => console.log(err.message));
+const testCase2 = async () => {
+    const params = () => [
+      sampleSumPromise(1, 1),
+      sampleSumPromise(2, null),
+      sampleSumPromise(1, 2),
+    ];
+  
+    // Output: "Rejected Error"
+    const res1 = await promiseAllPolyfill(params());
+    const res2 = await Promise.all(params);
+
+    expect(res1).toThrow();
+    expect(res2).toThrow();
 };
 
-testCase1();
-testCase2();
+(async () => {
+    testCase1();
+    testCase2();  
+})();
